@@ -1,0 +1,12 @@
+C:\Users\POCHY\Documents\ExamenFinal\BLL\bin\Debug\BLL.dll
+C:\Users\POCHY\Documents\ExamenFinal\BLL\bin\Debug\BLL.pdb
+C:\Users\POCHY\Documents\ExamenFinal\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+C:\Users\POCHY\Documents\ExamenFinal\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\POCHY\Documents\ExamenFinal\BLL\obj\Debug\BLL.dll
+C:\Users\POCHY\Documents\ExamenFinal\BLL\obj\Debug\BLL.pdb
+C:\Users\POCHY\Desktop\Original\ExamenFinal\BLL\bin\Debug\BLL.dll
+C:\Users\POCHY\Desktop\Original\ExamenFinal\BLL\bin\Debug\BLL.pdb
+C:\Users\POCHY\Desktop\Original\ExamenFinal\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+C:\Users\POCHY\Desktop\Original\ExamenFinal\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\POCHY\Desktop\Original\ExamenFinal\BLL\obj\Debug\BLL.dll
+C:\Users\POCHY\Desktop\Original\ExamenFinal\BLL\obj\Debug\BLL.pdb

@@ -30,18 +30,18 @@
         {
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
-            this.panelContenedor = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnNomina = new System.Windows.Forms.Button();
             this.btnIngrediente = new System.Windows.Forms.Button();
             this.btnFactura = new System.Windows.Forms.Button();
+            this.panel2 = new System.Windows.Forms.Panel();
             this.btnSalir = new System.Windows.Forms.Button();
+            this.panelContenedor = new System.Windows.Forms.Panel();
             this.flowLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
-            this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // flowLayoutPanel1
@@ -54,10 +54,10 @@
             this.flowLayoutPanel1.Controls.Add(this.panel2);
             this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 0);
-            this.flowLayoutPanel1.MaximumSize = new System.Drawing.Size(200, 610);
-            this.flowLayoutPanel1.MinimumSize = new System.Drawing.Size(60, 610);
+            this.flowLayoutPanel1.MaximumSize = new System.Drawing.Size(200, 0);
+            this.flowLayoutPanel1.MinimumSize = new System.Drawing.Size(60, 0);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(200, 610);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(200, 760);
             this.flowLayoutPanel1.TabIndex = 0;
             // 
             // panel1
@@ -69,14 +69,6 @@
             this.panel1.Size = new System.Drawing.Size(197, 82);
             this.panel1.TabIndex = 0;
             // 
-            // panel2
-            // 
-            this.panel2.Controls.Add(this.btnSalir);
-            this.panel2.Location = new System.Drawing.Point(3, 262);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(200, 281);
-            this.panel2.TabIndex = 5;
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -87,14 +79,6 @@
             this.label1.Size = new System.Drawing.Size(49, 23);
             this.label1.TabIndex = 1;
             this.label1.Text = "Menu";
-            // 
-            // panelContenedor
-            // 
-            this.panelContenedor.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelContenedor.Location = new System.Drawing.Point(200, 0);
-            this.panelContenedor.Name = "panelContenedor";
-            this.panelContenedor.Size = new System.Drawing.Size(885, 610);
-            this.panelContenedor.TabIndex = 1;
             // 
             // pictureBox1
             // 
@@ -154,38 +138,62 @@
             this.btnFactura.TabIndex = 4;
             this.btnFactura.Text = "Factura";
             this.btnFactura.UseVisualStyleBackColor = true;
+            this.btnFactura.Click += new System.EventHandler(this.btnFactura_Click);
+            // 
+            // panel2
+            // 
+            this.panel2.Controls.Add(this.btnSalir);
+            this.panel2.Location = new System.Drawing.Point(3, 262);
+            this.panel2.MaximumSize = new System.Drawing.Size(200, 459);
+            this.panel2.MinimumSize = new System.Drawing.Size(200, 459);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(200, 459);
+            this.panel2.TabIndex = 5;
             // 
             // btnSalir
             // 
+            this.btnSalir.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.btnSalir.FlatAppearance.BorderSize = 0;
             this.btnSalir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSalir.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSalir.ForeColor = System.Drawing.Color.White;
             this.btnSalir.Image = global::ExamenFinal.Properties.Resources.salir;
             this.btnSalir.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSalir.Location = new System.Drawing.Point(-3, 230);
+            this.btnSalir.Location = new System.Drawing.Point(0, 408);
             this.btnSalir.Name = "btnSalir";
             this.btnSalir.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.btnSalir.Size = new System.Drawing.Size(197, 51);
+            this.btnSalir.Size = new System.Drawing.Size(200, 51);
             this.btnSalir.TabIndex = 3;
             this.btnSalir.Text = "Salir";
             this.btnSalir.UseVisualStyleBackColor = true;
             this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
             // 
+            // panelContenedor
+            // 
+            this.panelContenedor.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelContenedor.Location = new System.Drawing.Point(200, 0);
+            this.panelContenedor.Name = "panelContenedor";
+            this.panelContenedor.Size = new System.Drawing.Size(1150, 760);
+            this.panelContenedor.TabIndex = 1;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1085, 610);
+            this.ClientSize = new System.Drawing.Size(1334, 721);
             this.Controls.Add(this.panelContenedor);
             this.Controls.Add(this.flowLayoutPanel1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.MaximumSize = new System.Drawing.Size(1350, 760);
+            this.MinimumSize = new System.Drawing.Size(1350, 760);
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.flowLayoutPanel1.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            this.panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.panel2.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }

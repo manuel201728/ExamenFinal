@@ -39,6 +39,11 @@ namespace ExamenFinal
             AbrirForms(new frmIngrediente());
         }
 
+        private void btnFactura_Click(object sender, EventArgs e)
+        {
+            AbrirForms(new frmFactura());
+        }
+
         private void btnSalir_Click(object sender, EventArgs e)
         {
             Application.Exit();
